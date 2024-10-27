@@ -234,17 +234,17 @@ footer{
   .container{
     width: 90%;
   }
-  
-  .menu-bar{
+
+  .menu-box{
     width: 40px;
     height: 40px;
     margin-right: 5%;
-    border: 1px solid;
+    border: 1px solid #FAFAFA;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: auto;
   }
-  
+
   .list-bar{
     width:25px;
     height: 2px;
@@ -252,8 +252,87 @@ footer{
     margin: 5px auto;
     background-color: #FAFAFA;
   }
-  
+
   #mv{
     background-image: url(img3/code.png);
   }
+
+  .nav-list{
+    display: none;
+    line-height: 50px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+  }
+
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+
+  .production-group{
+    width: 300px;
+  }
+
+  .production{
+    margin-right: 0px;
+  }
+
+.sp-none{
+  display: none;
+  }
+
+.strength-group{
+  flex-flow: row wrap;
+  width: 320px;
+  }
+
+.strength:first-child{
+  margin-top: 0px;
+  }
+
+.profile-group{
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.profile-group .left-content{
+  margin-bottom: 20px;
+}
+
+.right-content{
+  width: 100%;
+}
+
+.left-content{
+  width: 100%;
+}
+
+.contact-group{
+  flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.left-content{
+  width: 100%;
+}
+
+.left-contact-content{
+  width: 100%;
+}
+
+.right-content{
+  width: 100%;
+}
+
+.right-contact-content{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.right-contact-content .fa{
+  font-size: 50px;
+  margin-right: 8;
+}
+
 }
